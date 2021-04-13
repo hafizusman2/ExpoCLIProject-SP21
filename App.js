@@ -40,8 +40,8 @@ class Age extends React.Component {
 
 function Keypad() {
   const [getText, setText] = useState("");
-  const buttonPress = (msg) => {
-    setText(getText + msg);
+  const buttonPress = (mesg) => {
+    setText(getText + mesg);
   };
   
 
